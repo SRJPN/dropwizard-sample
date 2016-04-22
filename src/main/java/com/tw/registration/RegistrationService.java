@@ -18,8 +18,8 @@ public class RegistrationService extends Service<RegistrationServiceConfiguratio
     }
 
     @Override
-    protected void initialize(RegistrationServiceConfiguration registrationServiceConfiguration, Environment environment) throws Exception {
-        database = Database.create();
+    protected void initialize(RegistrationServiceConfiguration configuration, Environment environment) throws Exception {
+        database = Database.create(configuration.getUrl(), configuration.getUserName(), configuration.getPassword());
         environment.addResource(new RegistrationResource(database));
     }
 }

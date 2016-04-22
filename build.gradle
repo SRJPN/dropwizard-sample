@@ -14,5 +14,5 @@ apply plugin: 'application'
 mainClassName = 'com.tw.registration.RegistrationService'
 
 run {
-    args 'server'
+    args 'server', 'registration.yml'
 }
