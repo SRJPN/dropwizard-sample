@@ -28,7 +28,7 @@ public class Database {
             String sql = "CREATE TABLE IF NOT EXISTS DEVICES " +
                     "(MAC_ID               INT    PRIMARY KEY     NOT NULL," +
                     " DEVICE_NAME          TEXT       NOT NULL, " +
-                    " IP_ADDRESS           INT        NOT NULL, " +
+                    " IP_ADDRESS           TEXT       NOT NULL, " +
                     " DEVICE_TYPE          CHAR(50)   NOT NULL, " +
                     " OPERATING_SYSTEM     TEXT       NOT NULL)";
 
