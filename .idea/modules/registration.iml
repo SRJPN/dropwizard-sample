@@ -12,5 +12,8 @@
     <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-core:0.5.1" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="io.dropwizard:dropwizard-core:0.9.1" level="project" />
+    <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-core:0.6.2" level="project" />
+    <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-hibernate:0.6.2" level="project" />
+    <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-migrations:0.6.2" level="project" />
   </component>
 </module>

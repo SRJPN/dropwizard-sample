@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:05:44:59 +0000] "GET /registration?macId=27635389&&deviceName=sooraj&&ipAddress=192.168.1.1&&deviceType=computer&&operatingSystem=macYosmite HTTP/1.1" 200 132 68 68
+0:0:0:0:0:0:0:1 - - [25/Apr/2016:05:45:19 +0000] "GET /registration?macId=6756&&deviceName=sooraj&&ipAddress=192.168.1.1&&deviceType=computer&&operatingSystem=macYosmite HTTP/1.1" 200 128 15 15

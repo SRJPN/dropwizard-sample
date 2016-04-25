@@ -5,7 +5,9 @@ repositories {
 }
 
 dependencies {
-    compile group: 'com.yammer.dropwizard', name: 'dropwizard-core', version: '0.5.1'
+    compile group: 'com.yammer.dropwizard', name: 'dropwizard-core', version: '0.6.2'
+    compile group: 'com.yammer.dropwizard', name: 'dropwizard-migrations', version: '0.6.2'
+    compile group: 'com.yammer.dropwizard', name: 'dropwizard-hibernate', version: '0.6.2'
     compile 'postgresql:postgresql:9.1-901-1.jdbc4'
 }
 

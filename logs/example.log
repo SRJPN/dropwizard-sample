@@ -1,0 +1,28 @@
+INFO  [2016-04-25 05:44:49,955] org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+INFO  [2016-04-25 05:44:49,960] org.hibernate.Version: HHH000412: Hibernate Core {4.1.9.Final}
+INFO  [2016-04-25 05:44:49,960] org.hibernate.cfg.Environment: HHH000206: hibernate.properties not found
+INFO  [2016-04-25 05:44:49,962] org.hibernate.cfg.Environment: HHH000021: Bytecode provider name : javassist
+INFO  [2016-04-25 05:44:49,976] com.yammer.dropwizard.hibernate.SessionFactoryFactory: Entity classes: [com.tw.registration.database.Device]
+INFO  [2016-04-25 05:44:50,159] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+INFO  [2016-04-25 05:44:50,166] org.hibernate.engine.jdbc.internal.LobCreatorBuilder: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  [2016-04-25 05:44:50,172] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator: HHH000399: Using default transaction strategy (direct JDBC transactions)
+INFO  [2016-04-25 05:44:50,174] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+INFO  [2016-04-25 05:44:50,316] com.yammer.dropwizard.cli.ServerCommand: Starting Registration
+INFO  [2016-04-25 05:44:50,317] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2016-04-25 05:44:50,375] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2016-04-25 05:44:50,406] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /registration (com.tw.registration.resource.RegistrationResource)
+
+INFO  [2016-04-25 05:44:50,406] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2016-04-25 05:44:50,535] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2016-04-25 05:44:50,538] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2016-04-25 05:51:21,376] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2016-04-25 05:51:21,376] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2016-04-25 05:51:21,377] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2016-04-25 05:51:21,377] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,file:/Users/sooraj/workspace/registration/build/classes/main/}
+INFO  [2016-04-25 05:51:23,435] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,file:/Users/sooraj/workspace/registration/build/classes/main/}
+INFO  [2016-04-25 05:51:23,435] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
