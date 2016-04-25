@@ -1,9 +1,9 @@
 package com.tw.registration;
 
-import com.tw.registration.database.Database;
 import com.tw.registration.configuration.RegistrationServiceConfiguration;
-import com.tw.registration.database.Device;
-import com.tw.registration.resource.RegistrationResource;
+import com.tw.registration.core.Device;
+import com.tw.registration.database.DeviceDAO;
+import com.tw.registration.resource.DeviceResource;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Bootstrap;
@@ -13,7 +13,6 @@ import com.yammer.dropwizard.hibernate.HibernateBundle;
 import com.yammer.dropwizard.migrations.MigrationsBundle;
 
 public class RegistrationService extends Service<RegistrationServiceConfiguration> {
-    private Database database = Database.create("jdbc:postgresql://localhost:5432/postgres","postgres","Why$ishigh");
 
     public static void main(String[] args) throws Exception {
         new RegistrationService().run(args);
@@ -41,6 +40,7 @@ public class RegistrationService extends Service<RegistrationServiceConfiguratio
 
     @Override
     public void run(RegistrationServiceConfiguration configuration, Environment environment) throws Exception {
-        environment.addResource(new RegistrationResource(database));
+        final DeviceDAO dao = new DeviceDAO(hibernateBundle.getSessionFactory());
+        environment.addResource(new DeviceResource(dao));
     }
 }

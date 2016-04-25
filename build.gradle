@@ -9,6 +9,7 @@ dependencies {
     compile group: 'com.yammer.dropwizard', name: 'dropwizard-migrations', version: '0.6.2'
     compile group: 'com.yammer.dropwizard', name: 'dropwizard-hibernate', version: '0.6.2'
     compile 'postgresql:postgresql:9.1-901-1.jdbc4'
+    compile 'eu.bitwalker:UserAgentUtils:1.19'
 }
 
 apply plugin: 'application'

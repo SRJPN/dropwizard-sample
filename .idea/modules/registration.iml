@@ -15,5 +15,6 @@
     <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-core:0.6.2" level="project" />
     <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-hibernate:0.6.2" level="project" />
     <orderEntry type="library" name="com.yammer.dropwizard:dropwizard-migrations:0.6.2" level="project" />
+    <orderEntry type="library" name="eu.bitwalker:UserAgentUtils:1.19" level="project" />
   </component>
 </module>

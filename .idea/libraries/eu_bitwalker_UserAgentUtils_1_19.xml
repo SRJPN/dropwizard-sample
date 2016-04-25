@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="eu.bitwalker:UserAgentUtils:1.19" type="repository">
+    <properties maven-id="eu.bitwalker:UserAgentUtils:1.19" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/bitwalker/UserAgentUtils/1.19/UserAgentUtils-1.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
