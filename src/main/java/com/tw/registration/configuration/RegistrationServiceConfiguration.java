@@ -1,8 +1,8 @@
 package com.tw.registration.configuration;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.yammer.dropwizard.config.Configuration;
-import com.yammer.dropwizard.db.DatabaseConfiguration;
+import io.dropwizard.Configuration;
+import io.dropwizard.db.DataSourceFactory;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
@@ -11,13 +11,9 @@ public class RegistrationServiceConfiguration extends Configuration {
     @Valid
     @NotNull
     @JsonProperty("database")
-    private DatabaseConfiguration databaseConfiguration = new DatabaseConfiguration();
+    private DataSourceFactory dataSourceFactory = new DataSourceFactory();
 
-    public DatabaseConfiguration getDatabaseConfiguration() {
-        return databaseConfiguration;
-    }
-
-    public void setDatabaseConfiguration(DatabaseConfiguration databaseConfiguration) {
-        this.databaseConfiguration = databaseConfiguration;
+    public DataSourceFactory getDataSourceFactory() {
+        return dataSourceFactory;
     }
 }

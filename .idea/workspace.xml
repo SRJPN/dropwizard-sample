@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70194384-69a6-433c-bebc-099eaad81faf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/eu_bitwalker_UserAgentUtils_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/database/Database.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/database/Device.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/database/Sql.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/resource/RegistrationResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/production/registration/com/tw/registration/RegistrationService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/production/registration/com/tw/registration/configuration/RegistrationServiceConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/production/registration/com/tw/registration/database/Database.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/production/registration/com/tw/registration/database/Device.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/production/registration/com/tw/registration/database/Sql.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/production/registration/com/tw/registration/resource/RegistrationResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/database/Database.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/database/Sql.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/resource/RegistrationResource.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/database/Device.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/io_dropwizard_dropwizard_core_0_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/io_dropwizard_dropwizard_hibernate_0_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/io_dropwizard_dropwizard_migrations_0_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_devices_table.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/migrations.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_yammer_dropwizard_dropwizard_core_0_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_yammer_dropwizard_dropwizard_hibernate_0_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_yammer_dropwizard_dropwizard_migrations_0_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.12/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService$1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService$2.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/RegistrationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/configuration/RegistrationServiceConfiguration.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/configuration/RegistrationServiceConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/core/Device.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/core/Device.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/database/DeviceDAO.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/database/DeviceDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/tw/registration/resource/DeviceResource.class" afterPath="$PROJECT_DIR$/build/classes/main/com/tw/registration/resource/DeviceResource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/registration.iml" afterPath="$PROJECT_DIR$/.idea/modules/registration.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/example.log" afterPath="$PROJECT_DIR$/logs/example.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/requests.log" afterPath="$PROJECT_DIR$/logs/requests.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration.yml" afterPath="$PROJECT_DIR$/registration.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java" />
     </list>
     <ignored path="registration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,72 +76,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegistrationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <element signature="e#903#937#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="-110">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Device.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java">
+      <file leaf-file-name="20160426065552_create_changelog.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/migrations/scripts/20160426065552_create_changelog.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-5">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20160426065553_first_migration.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/migrations/scripts/20160426065553_first_migration.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20160426070441_Create_Table.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/migrations/scripts/20160426070441_Create_Table.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V1__Create_devices_table.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_devices_table.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/migrations/scripts/bootstrap.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -425,16 +425,22 @@
         <option value="$PROJECT_DIR$/src/main/java/registration/RegistrationService.java" />
         <option value="$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.1/dropwizard-core-0.6.1.jar!/com/yammer/dropwizard/Service.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/database/Sql.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/database/Device.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/database/Database.java" />
-        <option value="$PROJECT_DIR$/registration.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/resource/RegistrationResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/migrations.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/migrations.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java" />
+        <option value="$PROJECT_DIR$/registration.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_person_table.sql" />
+        <option value="$PROJECT_DIR$/migrations/scripts/20160426065553_first_migration.sql" />
+        <option value="$PROJECT_DIR$/migrations/scripts/20160426070441_Create_Table.sql" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -512,11 +518,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,15 +540,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
+              <option name="myItemId" value="migration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,16 +565,22 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="registration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="registration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,53 +594,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -658,10 +616,6 @@
     <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/main/java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -669,29 +623,36 @@
       <recent name="com.tw.registration.resource" />
       <recent name="com.tw.registration.configuration" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration/scripts" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/main/java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Groovy.build">
-    <configuration default="false" name="RegistrationService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tw.registration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tw.registration.RegistrationService" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="server" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+  <component name="RunManager" selected="Groovy.build (6)">
+    <configuration default="false" name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="registration" />
-      <envs />
-      <method />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
     </configuration>
     <configuration default="false" name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="registration" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="build (5)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="registration" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
       <setting name="vmparams" value="" />
@@ -713,18 +674,7 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="build (4)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="registration" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="false" name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration default="false" name="build (6)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="registration" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
       <setting name="vmparams" value="" />
@@ -991,20 +941,32 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RegistrationService" />
+    <configuration default="false" name="build (4)" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="registration" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="-b build.gradle" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Groovy.build (1)" />
       <item index="1" class="java.lang.String" itemvalue="Groovy.build (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.build (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.build (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.build (5)" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.build (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.build (4)" />
+      <item index="5" class="java.lang.String" itemvalue="Groovy.build (6)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.build" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.build (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.build (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RegistrationService" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.build (6)" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.build (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Groovy.build (5)" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.build (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.build (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1022,8 +984,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1034,7 +996,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1065,108 +1027,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#903#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="59" selection-start-line="24" selection-start-column="22" selection-end-line="29" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/database/Sql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#903#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1184,8 +1050,14 @@
         <state relative-caret-position="210">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="93" />
           <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1203,8 +1075,7 @@
         <state relative-caret-position="210">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
           <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1233,12 +1104,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#903#937#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1249,8 +1120,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1268,8 +1137,14 @@
         <state relative-caret-position="210">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="93" />
           <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1287,8 +1162,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
           <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1317,12 +1191,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
-            <element signature="e#903#937#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1333,8 +1207,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1352,8 +1224,14 @@
         <state relative-caret-position="210">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="93" />
           <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1371,8 +1249,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1410,17 +1287,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/DBConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2.jar!/com/yammer/dropwizard/assets/AssetsBundle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1448,14 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-hibernate/0.6.2/dropwizard-hibernate-0.6.2.jar!/com/yammer/dropwizard/hibernate/HibernateBundle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1467,28 +1325,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-db/0.6.2/dropwizard-db-0.6.2.jar!/com/yammer/dropwizard/db/DatabaseConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="750">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#903#937#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-db/0.9.2/dropwizard-db-0.9.2.jar!/io/dropwizard/db/DataSourceFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1497,31 +1377,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/core/Device.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/resource/DeviceResource.java">
+    <entry file="file://$PROJECT_DIR$/example.keystore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/database/DeviceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/RegistrationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/registration/configuration/RegistrationServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/scripts/20160426065552_create_changelog.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/scripts/bootstrap.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/scripts/20160426065553_first_migration.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/scripts/20160426070441_Create_Table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/registration.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_devices_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1579,7 +1535,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>registration_test|registration</last-edited>
+          <last-edited>registration</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1591,7 +1547,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>eu.bitwalker:UserAgentUtils:1.19</last-edited>
+          <last-edited>io.dropwizard:dropwizard-core:0.9.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

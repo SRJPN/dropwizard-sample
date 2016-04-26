@@ -1,7 +1,7 @@
 package com.tw.registration.database;
 
 import com.tw.registration.core.Device;
-import com.yammer.dropwizard.hibernate.AbstractDAO;
+import io.dropwizard.hibernate.AbstractDAO;
 import org.hibernate.SessionFactory;
 
 public class DeviceDAO extends AbstractDAO<Device> {

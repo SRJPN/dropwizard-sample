@@ -4,35 +4,38 @@ import com.tw.registration.configuration.RegistrationServiceConfiguration;
 import com.tw.registration.core.Device;
 import com.tw.registration.database.DeviceDAO;
 import com.tw.registration.resource.DeviceResource;
-import com.yammer.dropwizard.Service;
-import com.yammer.dropwizard.assets.AssetsBundle;
-import com.yammer.dropwizard.config.Bootstrap;
-import com.yammer.dropwizard.config.Environment;
-import com.yammer.dropwizard.db.DatabaseConfiguration;
-import com.yammer.dropwizard.hibernate.HibernateBundle;
-import com.yammer.dropwizard.migrations.MigrationsBundle;
+import io.dropwizard.Application;
+import io.dropwizard.db.PooledDataSourceFactory;
+import io.dropwizard.hibernate.HibernateBundle;
+import io.dropwizard.migrations.MigrationsBundle;
+import io.dropwizard.setup.Bootstrap;
+import io.dropwizard.setup.Environment;
 
-public class RegistrationService extends Service<RegistrationServiceConfiguration> {
+public class RegistrationApplication extends Application<RegistrationServiceConfiguration> {
 
     public static void main(String[] args) throws Exception {
-        new RegistrationService().run(args);
+        RegistrationApplication registrationApplication = new RegistrationApplication();
+        registrationApplication.run(args);
     }
 
     private final HibernateBundle<RegistrationServiceConfiguration> hibernateBundle = new HibernateBundle<RegistrationServiceConfiguration>(Device.class) {
         @Override
-        public DatabaseConfiguration getDatabaseConfiguration(RegistrationServiceConfiguration configuration) {
-            return configuration.getDatabaseConfiguration();
+        public PooledDataSourceFactory getDataSourceFactory(RegistrationServiceConfiguration configuration) {
+            return configuration.getDataSourceFactory();
         }
     };
 
     @Override
+    public String getName() {
+        return "Registration";
+    }
+
+    @Override
     public void initialize(Bootstrap<RegistrationServiceConfiguration> bootstrap) {
-        bootstrap.setName("Registration");
-        bootstrap.addBundle(new AssetsBundle());
         bootstrap.addBundle(new MigrationsBundle<RegistrationServiceConfiguration>() {
             @Override
-            public DatabaseConfiguration getDatabaseConfiguration(RegistrationServiceConfiguration configuration) {
-                return configuration.getDatabaseConfiguration();
+            public PooledDataSourceFactory getDataSourceFactory(RegistrationServiceConfiguration configuration) {
+                return configuration.getDataSourceFactory();
             }
         });
         bootstrap.addBundle(hibernateBundle);
@@ -41,6 +44,7 @@ public class RegistrationService extends Service<RegistrationServiceConfiguratio
     @Override
     public void run(RegistrationServiceConfiguration configuration, Environment environment) throws Exception {
         final DeviceDAO dao = new DeviceDAO(hibernateBundle.getSessionFactory());
-        environment.addResource(new DeviceResource(dao));
+        environment.jersey().register(new DeviceResource(dao));
     }
+
 }

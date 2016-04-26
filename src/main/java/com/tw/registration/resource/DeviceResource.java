@@ -1,64 +1,46 @@
 package com.tw.registration.resource;
 
-import com.google.common.base.Optional;
-import com.sun.jersey.api.NotFoundException;
 import com.tw.registration.core.Device;
 import com.tw.registration.database.DeviceDAO;
-import com.yammer.dropwizard.hibernate.UnitOfWork;
-import com.yammer.dropwizard.jersey.params.LongParam;
 import eu.bitwalker.useragentutils.UserAgent;
+import io.dropwizard.hibernate.UnitOfWork;
+import org.joda.time.DateTime;
 
-import javax.ws.rs.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedMap;
-import java.util.*;
-
-//@Path("/registration")
-//@Produces(MediaType.APPLICATION_JSON)
-
-//public class DeviceResource {
-//    private final DeviceDAO deviceDAO;
-//
-//    public DeviceResource(DeviceDAO deviceDAO) {
-//        this.deviceDAO = deviceDAO;
-//    }
-//
-//    @POST
-//    @UnitOfWork
-//    public Device createDevice(Device device) {
-//        return deviceDAO.create(device);
-//    }
+import java.util.Date;
 
 @Path("/registration")
 @Produces(MediaType.APPLICATION_JSON)
 public class DeviceResource {
 
-private DeviceDAO deviceDAO;
+    private DeviceDAO deviceDAO;
 
-public DeviceResource(DeviceDAO deviceDAO) {
+    public DeviceResource(DeviceDAO deviceDAO) {
     this.deviceDAO = deviceDAO;
     }
 
     @GET
     @UnitOfWork
-    public void createEntry(@Context HttpHeaders headers) {
+    public Device createEntry(@Context HttpHeaders headers, @Context HttpServletRequest http) {
         MultivaluedMap<String, String> requestHeaders = headers.getRequestHeaders();
         UserAgent userAgent = UserAgent.parseUserAgentString(requestHeaders.get("User-Agent").get(0));
-        Set<String> strings = requestHeaders.keySet();
-        for (String string : strings) {
-            System.out.println(string+"----------------------"+requestHeaders.get(string)+"---------------");
-        }
+
         Device device = new Device();
+        Date date = new Date();
         device.setOPERATING_SYSTEM(userAgent.getOperatingSystem().getName());
-        device.setIP_ADDRESS(requestHeaders.get("Host").toString());
+        device.setIP_ADDRESS(http.getRemoteHost());
+        device.setBROWSER(userAgent.getBrowser().toString());
+        device.setDEVICE_TYPE(userAgent.getOperatingSystem().getDeviceType().toString());
+        device.setTIME(date.toString());
         deviceDAO.create(device);
-//
-//
-//        System.out.println("=========id "+userAgent.getId());
-//        System.out.println("=========os "+userAgent.getOperatingSystem());
-//        System.out.println("=========browser "+userAgent.getBrowser());
-//        System.out.println("=========bversion "+userAgent.getBrowserVersion());
+
+        return device;
     }
 }
