@@ -5,6 +5,12 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "DEVICES")
+@NamedQueries({
+        @NamedQuery(
+                name = "com.tw.registration.core.Device.findAll",
+                query = "SELECT d FROM Device d"
+        )
+})
 
 public class Device {
     @Id

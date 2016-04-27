@@ -8,7 +8,7 @@
 
     <changeSet id="1" author="Sooraj">
         <createTable tableName="DEVICES">
-            <column name="id" type="bigint" autoIncrement="true">
+            <column name="id" type="int" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="IP_ADDRESS" type="text">
@@ -18,6 +18,9 @@
                 <constraints nullable="false"/>
             </column>
             <column name="BROWSER" type="text">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TIME_DATE" type="text">
                 <constraints nullable="false"/>
             </column>
         </createTable>

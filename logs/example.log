@@ -14,7 +14,7 @@ INFO  [2016-04-25 05:44:50,406] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.RegistrationResource)
 
-INFO  [2016-04-25 05:44:50,406] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 05:44:50,406] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -42,7 +42,7 @@ INFO  [2016-04-25 06:17:51,823] com.yammer.dropwizard.config.Environment: The fo
 
     POST    /registration (com.tw.registration.resource.RegistrationResource)
 
-INFO  [2016-04-25 06:17:51,823] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 06:17:51,823] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -70,7 +70,7 @@ INFO  [2016-04-25 06:22:21,619] com.yammer.dropwizard.config.Environment: The fo
 
     POST    /registration (com.tw.registration.resource.RegistrationResource)
 
-INFO  [2016-04-25 06:22:21,620] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 06:22:21,620] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -98,7 +98,7 @@ INFO  [2016-04-25 06:22:46,207] com.yammer.dropwizard.config.Environment: The fo
 
     POST    /registration (com.tw.registration.resource.RegistrationResource)
 
-INFO  [2016-04-25 06:22:46,207] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 06:22:46,207] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -126,7 +126,7 @@ INFO  [2016-04-25 06:37:05,951] com.yammer.dropwizard.config.Environment: The fo
 
     POST    /registration (com.tw.registration.resource.RegistrationResource)
 
-INFO  [2016-04-25 06:37:05,951] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 06:37:05,951] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -154,7 +154,7 @@ INFO  [2016-04-25 06:47:43,243] com.yammer.dropwizard.config.Environment: The fo
 
     POST    /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 06:47:43,243] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 06:47:43,243] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -182,7 +182,7 @@ INFO  [2016-04-25 07:27:49,278] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:27:49,278] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:27:49,278] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -267,7 +267,7 @@ INFO  [2016-04-25 07:28:56,962] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:28:56,962] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:28:56,962] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -297,7 +297,7 @@ INFO  [2016-04-25 07:31:23,381] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:31:23,381] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:31:23,381] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -382,7 +382,7 @@ INFO  [2016-04-25 07:33:32,860] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:33:32,860] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:33:32,860] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -467,7 +467,7 @@ INFO  [2016-04-25 07:34:35,858] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:34:35,858] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:34:35,858] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -552,7 +552,7 @@ INFO  [2016-04-25 07:36:16,421] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:36:16,421] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:36:16,421] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -582,7 +582,7 @@ INFO  [2016-04-25 07:37:06,394] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:37:06,395] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:37:06,395] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -612,7 +612,7 @@ INFO  [2016-04-25 07:38:04,998] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:38:04,998] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:38:04,998] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -642,7 +642,7 @@ INFO  [2016-04-25 07:39:50,782] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:39:50,782] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:39:50,782] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -672,7 +672,7 @@ INFO  [2016-04-25 07:41:34,895] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:41:34,896] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:41:34,896] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -702,7 +702,7 @@ INFO  [2016-04-25 07:42:55,185] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:42:55,185] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:42:55,185] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -732,7 +732,7 @@ INFO  [2016-04-25 07:43:35,692] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:43:35,692] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:43:35,692] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -762,7 +762,7 @@ INFO  [2016-04-25 07:54:25,414] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:54:25,414] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:54:25,414] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -792,7 +792,7 @@ INFO  [2016-04-25 07:58:02,586] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:58:02,586] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:58:02,586] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -822,7 +822,7 @@ INFO  [2016-04-25 07:58:36,477] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 07:58:36,477] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 07:58:36,477] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -852,7 +852,7 @@ INFO  [2016-04-25 08:03:50,185] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:03:50,186] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:03:50,186] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -969,7 +969,7 @@ INFO  [2016-04-25 08:07:55,486] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:07:55,487] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:07:55,487] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1066,7 +1066,7 @@ INFO  [2016-04-25 08:11:23,285] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:11:23,285] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:11:23,285] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1188,7 +1188,7 @@ INFO  [2016-04-25 08:17:47,356] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:17:47,357] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:17:47,357] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1305,7 +1305,7 @@ INFO  [2016-04-25 08:18:54,666] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:18:54,666] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:18:54,666] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1339,7 +1339,7 @@ INFO  [2016-04-25 08:20:13,757] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:20:13,757] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:20:13,757] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1431,7 +1431,7 @@ INFO  [2016-04-25 08:22:08,797] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:22:08,797] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:22:08,797] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1523,7 +1523,7 @@ INFO  [2016-04-25 08:24:10,655] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:24:10,655] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:24:10,655] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1615,7 +1615,7 @@ INFO  [2016-04-25 08:25:14,490] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:25:14,491] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:25:14,491] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1652,7 +1652,7 @@ INFO  [2016-04-25 08:30:04,714] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:30:04,714] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:30:04,714] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1688,7 +1688,7 @@ INFO  [2016-04-25 08:43:23,717] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:43:23,718] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:43:23,718] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1809,7 +1809,7 @@ INFO  [2016-04-25 08:46:08,777] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:46:08,778] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:46:08,778] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1845,7 +1845,7 @@ INFO  [2016-04-25 08:49:28,951] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 08:49:28,952] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 08:49:28,952] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1879,7 +1879,7 @@ INFO  [2016-04-25 10:11:17,430] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:11:17,430] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:11:17,430] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1909,7 +1909,7 @@ INFO  [2016-04-25 10:14:30,431] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:14:30,431] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:14:30,431] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1939,7 +1939,7 @@ INFO  [2016-04-25 10:16:10,732] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:16:10,732] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:16:10,732] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -1970,7 +1970,7 @@ INFO  [2016-04-25 10:17:21,456] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:17:21,457] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:17:21,457] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2005,7 +2005,7 @@ INFO  [2016-04-25 10:26:14,133] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:26:14,133] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:26:14,133] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2035,7 +2035,7 @@ INFO  [2016-04-25 10:36:09,200] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:36:09,200] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:36:09,200] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2067,7 +2067,7 @@ INFO  [2016-04-25 10:40:22,877] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:40:22,877] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:40:22,877] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2109,7 +2109,7 @@ INFO  [2016-04-25 10:51:45,322] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 10:51:45,322] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 10:51:45,322] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2141,7 +2141,7 @@ INFO  [2016-04-25 11:07:41,722] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 11:07:41,722] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 11:07:41,722] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2172,7 +2172,7 @@ INFO  [2016-04-25 13:34:33,439] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 13:34:33,439] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 13:34:33,439] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
@@ -2205,7 +2205,7 @@ INFO  [2016-04-25 13:45:19,027] com.yammer.dropwizard.config.Environment: The fo
 
     GET     /registration (com.tw.registration.resource.DeviceResource)
 
-INFO  [2016-04-25 13:45:19,027] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2016-04-25 13:45:19,027] com.yammer.dropwizard.config.Environment: tasks =
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 

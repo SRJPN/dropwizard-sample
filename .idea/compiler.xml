@@ -19,8 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="registration_main" target="1.5" />
-      <module name="registration_test" target="1.5" />
+      <module name="registration_main" target="1.8" />
+      <module name="registration_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

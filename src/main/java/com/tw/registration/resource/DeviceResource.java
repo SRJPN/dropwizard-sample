@@ -1,15 +1,15 @@
 package com.tw.registration.resource;
 
+import com.google.common.base.Optional;
 import com.tw.registration.core.Device;
 import com.tw.registration.database.DeviceDAO;
+import com.tw.registration.views.DeviceView;
 import eu.bitwalker.useragentutils.UserAgent;
 import io.dropwizard.hibernate.UnitOfWork;
-import org.joda.time.DateTime;
+import io.dropwizard.jersey.params.LongParam;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
